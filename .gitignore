@@ -9,8 +9,9 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Jupyter Notebook checkpoints
+# Jupyter Notebook files and checkpoints
 .ipynb_checkpoints/
+*.ipynb
 
 # macOS cruft
 .DS_Store
