@@ -3,7 +3,7 @@ from pyspark import SparkContext
 # Create a SparkContext
 sc = SparkContext("local", "spark-lab")
 
-data = [1, 2, 3, 4, 5]
+data = ["apple", "orange", "avocado"]
 #distData is an RDD here
 distData = sc.parallelize(data)
 
