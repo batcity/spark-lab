@@ -1,7 +1,7 @@
-# Spark Lab:
+# Spark Lab
 
-This repo contains PySpark features and advanced concepts for learning Apache Spark.  
-Each concept has its own folder with a code file and README explaining the idea.
+This repository contains **PySpark features and advanced concepts** for learning Apache Spark.  
+Each concept has its own folder with a Python script and README explaining the idea.
 
 ## Table of Contents
 
@@ -44,8 +44,59 @@ Each concept has its own folder with a code file and README explaining the idea.
 
 ---
 
+## Setup Instructions
+
+To set up the environment, run:
+
+```bash
+. ./setup.sh
+````
+
+> ⚠️ Use the `.` (dot) before `./setup.sh` so the script runs in the current shell and activates the virtual environment automatically.
+
+This script will:
+
+1. Create a virtual environment in `.venv` if it doesn't exist.
+2. Activate the environment in the current shell.
+3. Upgrade `pip`.
+4. Install dependencies: `pyspark` and `jupyterlab`.
+
+After setup:
+
+* Your environment is already activated.
+* To deactivate, run:
+
+  ```bash
+  deactivate
+  ```
+* Check Python:
+
+  ```bash
+  which python
+  ```
+* Check Pip:
+
+  ```bash
+  which pip
+  ```
+
+---
+
+## How to Run Scripts
+
+Since the virtual environment contains **PySpark**, run scripts using Python:
+
+```bash
+python your_file.py
+```
+
+> ⚠️ Do **not** use `spark-submit` unless you have a full Apache Spark installation.
+
+---
+
 ## How to Use
-1. Navigate to a concept folder.  
-2. Read the README.md to understand the concept.  
-3. Run the `.py` file with PySpark (`spark-submit` or `python`).  
-4. Experiment and modify to deepen understanding.
+
+1. Navigate to a concept folder.
+2. Read the `README.md` in that folder to understand the concept.
+3. Run the `.py` file using Python.
+4. Experiment and modify the code to deepen your understanding.
