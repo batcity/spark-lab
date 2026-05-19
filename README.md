@@ -26,7 +26,7 @@ Each concept has its own folder with a Python script and README explaining the i
 
 ### Spark Streaming
 - [Structured Streaming](./spark_streaming/structured_streaming/README.md)
-- [DStreams](./spark_streaming/DStreams/README.md)
+- [DStreams](./spark_streaming/DStreams/README.md) (Old streaming API)
 - [Window Operations](./spark_streaming/WindowOperations/README.md)
 - [Checkpointing](./spark_streaming/Checkpointing/README.md)
 - [State](./spark_streaming/State/README.md)
